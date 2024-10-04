@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid green; */
+}
+body{
+    /* background-color: #C9FEFA; */
+    background-color: #E2E2E2;
+}
+#parent{
+    width: 85%;
+    height: 1500px;
+    /* border: solid red; */
+    margin-top: 100px;
+    margin-left: 110px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+#imgs{
+    width: 300px;
+    height: 300px;
+    margin-right:10px ;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    /* transform: scale(1.2); */
+}
+#navbar{
+    /* border: solid red;  */
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    /* background-color: black; */
+    text-align: center;
+    /* color: white; */
+    
+}
+#pixabay{
+    font-size: 30px;
+    margin-top: -400px;
+    position: relative;
+    top: -60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: solid; */
+    padding:20px;
+    font-weight: bold;
+    margin-left: -480px;
+    text-shadow: 2px 2px 1px blue,2px 2px 1px rgb(233, 64, 230),3px 2px 1px rgb(34, 172, 73);
+}  
+.two{
+    margin-left: 40px;
+    font-size: 20px;
+} 
+#twoid{
+    margin-left: 250px;
+}
+#mainimg{
+    width: 90px;
+    height: 70px;
+    position: relative;
+    top: -30px;
+    margin-left: 340px;
+    margin-top: 30px;
+}
+.butt{
+   margin-left: 50px;
+   padding-top: -120px;
+   font-size: 20px;
+}
+#twoid{
+    /* border:solid ; */
+    position: relative;
+    top: -56px;
+    /* margin-left: -5px; */
+    /* padding: relative;
+    margin-left: -10px;
+    margin-top: 30px; */
+    color: #025B9E;
+}
+
+
+#login{
+    font-size: 15px;
+    background-color: #025B9E;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    margin-left: 1100px;
+    position: relative;
+    top: -80px;
+    /* border: solid; */
+     margin-top: -100px; 
+
+}
+.buttt{
+    font-size: 15px;
+    background-color: #025B9E;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    /* border: solid; */
+    margin-top: -120px;
+    position: relative;
+    top: -80px;
+    border: none;
+}
+#buttt{
+    padding: 5px 10px;
+    background-color: #025B9E;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+   
+   
+}
+#background{
+    width: 100%px;
+    height: 500px;
+    /* border: solid gold; */
+    margin-top: 1600px;
+    margin-left: 10px;
+    overflow: hidden;
+    position:relative;
+
+    
+}
+.imgss{
+    width: 98%;
+    height: 500px;
+   
+}
+.para{
+    margin-top: -1px;
+    /* border: solid red; */
+    position: absolute;
+    top: 300px;
+    margin-left: 350px;
+}
+#inputbox{
+    margin-top: 50px;
+    padding: 30px 270px;
+    width: 500px;
+}
+#input{
+    padding: 20px 0px 20px 890px;
+    margin-top: -100px;
+    margin-left: -380px;
+    border-radius: 30px;
+}
+#input::placeholder{
+    content: "Search for all images in pixohunt";
+    align-items: center;
+}
+#footer{
+    width:100%;
+    height: 50px;
+    background-color: grey;
+    margin-top: 80px;
+    align-items: center;
+
+}
+#lastpara{
+    margin-left: 400px;
+    padding-top: 20px;
+}
